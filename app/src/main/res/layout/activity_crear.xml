@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".crearActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:orientation="vertical"
+        android:layout_margin="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <EditText
+            android:id="@+id/nombreAnimen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Nombre"
+            tools:layout_editor_absoluteX="53dp"
+            tools:layout_editor_absoluteY="82dp" />
+
+        <EditText
+            android:id="@+id/descripeAnimen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="descripcion"
+            tools:layout_editor_absoluteX="53dp"
+            tools:layout_editor_absoluteY="82dp" />
+
+        <Button
+            android:id="@+id/imagenBut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="agregar imgafen" />
+
+        <ImageView
+            android:id="@+id/imagen"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"/>
+
+        <Button
+            android:id="@+id/registrar"
+            android:layout_width="match_parent"
+            android:text="Sincronizar"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
